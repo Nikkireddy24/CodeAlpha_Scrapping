@@ -1,0 +1,2972 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Passengers Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            color: #2E86C1;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #2E86C1;
+            color: white;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;}
+    </style>
+</head>
+<body>
+    <h1>Titanic Passengers Report</h1>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Age</th>
+      <th>Hometown</th>
+      <th>Boarded</th>
+      <th>Destination</th>
+      <th>Lifeboat</th>
+      <th>Body</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Allison, Mr. Hudson Joshua Creighton</td>
+      <td>30</td>
+      <td>Chesterville, Ontario, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Allison, Mrs. Bess Waldo (née Daniels)</td>
+      <td>25</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and cook, Miss Amelia Mary "Mildred" Brown[79]</td>
+      <td>18</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Sarah Daniels</td>
+      <td>33</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and  chauffeur, Swane, Mr. George[80]</td>
+      <td>19</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+      <td>294MB</td>
+    </tr>
+    <tr>
+      <td>Allison, Miss Helen Loraine</td>
+      <td>2</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Allison, Master Hudson Trevor</td>
+      <td>11 mo.</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and nurse, Miss Alice Catherine Cleaver</td>
+      <td>22</td>
+      <td>London, England, UK</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Anderson, Mr. Harry</td>
+      <td>47</td>
+      <td>New York City</td>
+      <td>New York City</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Andrews, Miss Kornelia Theodosia</td>
+      <td>62</td>
+      <td>Hudson, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Hudson, New York, US</td>
+      <td>10</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Andrews, Mr. Thomas[81]</td>
+      <td>39</td>
+      <td>Belfast, Ireland</td>
+      <td>Belfast</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Appleton, Mrs. Charlotte Lane (née Lamson)</td>
+      <td>53</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Artagaveytia, Mr. Ramon</td>
+      <td>71</td>
+      <td>Montevideo, Uruguay</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td>22MB</td>
+    </tr>
+    <tr>
+      <td>Astor, Colonel John Jacob IV</td>
+      <td>47</td>
+      <td>New York City</td>
+      <td>124MB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Astor, Mrs. Madeleine Talmage (née Force)[82][83]</td>
+      <td>18</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Rosalie Bidois</td>
+      <td>46</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and nurse, Miss Caroline Louise Endres</td>
+      <td>39</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Aubart, Mrs. Léontine Pauline[84]</td>
+      <td>24</td>
+      <td>Paris, France</td>
+      <td>9</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Emma Sägesser</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Barkworth, Mr. Algernon Henry Wilson</td>
+      <td>47</td>
+      <td>Hessle, East Yorkshire, England, UK</td>
+      <td>Southampton</td>
+      <td>B</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Baumann, Mr. John D.</td>
+      <td>60</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Baxter, Mrs. Hélène (née de Lanaudière-Chaput)</td>
+      <td>50</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Cherbourg</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Baxter, Mr. Quigg Edmond</td>
+      <td>24</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Cherbourg</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beattie, Mr. Thomson</td>
+      <td>36</td>
+      <td>Fergus, Ontario, Canada</td>
+      <td>Southampton</td>
+      <td>Fergus, Ontario, Canada</td>
+      <td>A[85]</td>
+      <td>331O</td>
+    </tr>
+    <tr>
+      <td>Beckwith, Mr. Richard Leonard</td>
+      <td>37</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beckwith, Mrs. Sallie (née Monypeny)</td>
+      <td>46</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Behr, Mr. Karl Howell</td>
+      <td>26</td>
+      <td>Cherbourg</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Birnbaum, Mr. Jakob</td>
+      <td>24</td>
+      <td>Antwerp, Belgium</td>
+      <td>Cherbourg</td>
+      <td>San Francisco, California, US</td>
+      <td></td>
+      <td>148MB</td>
+    </tr>
+    <tr>
+      <td>Bishop, Mr. Dickinson H. "Dick"</td>
+      <td>25</td>
+      <td>Dowagiac, Michigan, US</td>
+      <td>Cherbourg</td>
+      <td>Dowagiac, Michigan, US</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bishop, Mrs. Helen (née Walton)[83][86]</td>
+      <td>19</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Björnström-Steffansson, Mr. Mauritz Håkan</td>
+      <td>28</td>
+      <td>Stockholm, Sweden</td>
+      <td>Southampton</td>
+      <td>Washington, D.C., US</td>
+      <td>D</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Blackwell, Mr. Stephen Weart</td>
+      <td>45</td>
+      <td>Trenton, New Jersey, US</td>
+      <td>Southampton</td>
+      <td>Trenton, New Jersey, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Blank, Mr. Henry</td>
+      <td>39</td>
+      <td>Glen Ridge, New Jersey, US</td>
+      <td>Cherbourg</td>
+      <td>Glen Ridge, New Jersey, US</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bonnell, Miss Elizabeth</td>
+      <td>61</td>
+      <td>Youngstown, Ohio, US</td>
+      <td>Southampton</td>
+      <td>Youngstown, Ohio, US</td>
+      <td>8</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Bonnell, Miss Caroline</td>
+      <td>30</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Borebank, Mr. John James</td>
+      <td>42</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>Toronto, Ontario, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bowerman, Miss Elsie Edith</td>
+      <td>22</td>
+      <td>St Leonards-on-Sea, East Sussex, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brady, Mr. John Bertram</td>
+      <td>41</td>
+      <td>Pomeroy, Washington, US</td>
+      <td>Southampton</td>
+      <td>Pomeroy, Washington, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brandeis, Mr. Emil Franklin</td>
+      <td>48</td>
+      <td>Omaha, Nebraska, US</td>
+      <td>Cherbourg</td>
+      <td>Omaha, Nebraska, US</td>
+      <td>208MB</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Brereton, Mr. George Andrew (alias George A. Brayton)</td>
+      <td>37</td>
+      <td>Los Angeles, California, US</td>
+      <td>Southampton</td>
+      <td>Los Angeles, California, US</td>
+      <td>9</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brewe, Dr. Arthur Jackson</td>
+      <td>45</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Cherbourg</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brown, Mrs. Caroline Lane (née Lamson)</td>
+      <td>59</td>
+      <td>Belmont, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Belmont, Massachusetts, US</td>
+      <td>D</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brown, Mrs. Margaret (née Tobin)</td>
+      <td>44</td>
+      <td>Denver, Colorado, US</td>
+      <td>Cherbourg</td>
+      <td>Denver, Colorado, US</td>
+      <td>6</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Bucknell, Mrs. Emma Eliza (née Ward)</td>
+      <td>59</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>8</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Albina Bassani</td>
+      <td>36</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Butt, Major Archibald Willingham</td>
+      <td>46</td>
+      <td>Washington, D.C., US</td>
+      <td>Southampton</td>
+      <td>Washington, D.C., US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Calderhead, Mr. Edward Pennington</td>
+      <td>42</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Candee, Mrs. Helen Churchill (née Hungerford)</td>
+      <td>53</td>
+      <td>Washington, D.C., US</td>
+      <td>Cherbourg</td>
+      <td>Washington, D.C., US</td>
+      <td>6</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Cardeza, Mrs. Charlotte Wardle (née Drake)</td>
+      <td>58</td>
+      <td>Germantown, Pennsylvania, US</td>
+      <td>Germantown, Pennsylvania, US</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Annie Moore Ward</td>
+      <td>38</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Cardeza, Mr. Thomas Drake Martinez</td>
+      <td>36</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. Gustave J. Lesueur</td>
+      <td>35</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carlsson, Mr. Frans Olof</td>
+      <td>33</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Carraú, Mr. Francisco Mauro Severiano</td>
+      <td>31</td>
+      <td>Montevideo, Uruguay</td>
+      <td>Montevideo, Uruguay</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carraú-Esteves, Mr. José Pedro</td>
+      <td>17</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carter, Mr. William Ernest</td>
+      <td>36</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. Alexander Cairns</td>
+      <td>28</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and chauffeur, Mr. Charles Augustus Aldworth[79]</td>
+      <td>30</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carter, Mrs. Lucile (née Polk)</td>
+      <td>36</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Bryn Mawr, Pennsylvania, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Auguste Serreplan</td>
+      <td>30</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carter, Miss Lucile Polk</td>
+      <td>13</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Carter, Master William Thornton II</td>
+      <td>11</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Case, Mr. Howard Brown</td>
+      <td>49</td>
+      <td>Ascot, Berkshire, England, UK</td>
+      <td>Southampton</td>
+      <td>Rochester, New York, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cassebeer, Mrs. Eleanor Genevieve (née Fosdick)</td>
+      <td>36</td>
+      <td>New York, New York, US</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cavendish, Mr. Tyrell William</td>
+      <td>36</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>172MB</td>
+    </tr>
+    <tr>
+      <td>Cavendish, Mrs. Julia Florence (née Siegel)</td>
+      <td>25</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Ellen "Nellie" Barber</td>
+      <td>26</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Chaffee, Mr. Herbert Fuller</td>
+      <td>46</td>
+      <td>Amenia, North Dakota, US</td>
+      <td>Southampton</td>
+      <td>Amenia, North Dakota, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chaffee, Mrs. Carrie Constance (née Toogood)</td>
+      <td>47</td>
+      <td>Amenia, North Dakota, US</td>
+      <td>Southampton</td>
+      <td>Amenia, North Dakota, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chambers, Mr. Norman Campbell</td>
+      <td>27</td>
+      <td>New York City</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Chambers, Mrs. Bertha (née Griggs)</td>
+      <td>32</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Cherry, Miss Gladys</td>
+      <td>30</td>
+      <td>London, England, UK</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td>8</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Chevré, Mr. Paul Romaine Marie Léonce</td>
+      <td>45</td>
+      <td>Paris, France</td>
+      <td>Cherbourg</td>
+      <td>Ottawa, Ontario, Canada</td>
+      <td>7</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Chibnall, Mrs. Edith Martha Bowerman (née Barber)</td>
+      <td>48</td>
+      <td>St Leonards-on-Sea, East Sussex, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Chisholm, Mr. Roderick Robert Crispin[81]</td>
+      <td>40</td>
+      <td>Belfast, Ireland</td>
+      <td>Belfast</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Clark, Mr. Walter Miller</td>
+      <td>27</td>
+      <td>Los Angeles, California, US</td>
+      <td>Cherbourg</td>
+      <td>Los Angeles, California, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Clark, Mrs. Virginia Estelle (née McDowell)</td>
+      <td>26</td>
+      <td>Los Angeles, California, US</td>
+      <td>Cherbourg</td>
+      <td>Los Angeles, California, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Clifford, Mr. George Quincy</td>
+      <td>40</td>
+      <td>Stoughton, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Stoughton, Massachusetts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Colley, Mr. Edward Pomeroy</td>
+      <td>37</td>
+      <td>Dublin, Ireland</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Compton, Mrs. Mary Eliza (née Ingersoll)</td>
+      <td>64</td>
+      <td>Lakewood, New Jersey, US</td>
+      <td>Cherbourg</td>
+      <td>Lakewood, New Jersey, US</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Compton, Miss Sara Rebecca "Sadie"</td>
+      <td>39</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Compton, Mr. Alexander Taylor Jr.</td>
+      <td>37</td>
+      <td>Lakewood, New Jersey, US</td>
+      <td>Cherbourg</td>
+      <td>Lakewood, New Jersey, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cornell, Mrs. Malvina Helen (née Lamson)</td>
+      <td>55</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Crafton, Mr. John Bertram</td>
+      <td>59</td>
+      <td>Roachdale, Indiana, US</td>
+      <td>Southampton</td>
+      <td>Roachdale, Indiana, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Crosby, Captain Edward</td>
+      <td>70</td>
+      <td>Milwaukee, Wisconsin, US</td>
+      <td>Milwaukee, Wisconsin, US</td>
+      <td>269MB</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Crosby, Mrs. Catherine Elizabeth (née Halstead)</td>
+      <td>64</td>
+      <td>Milwaukee, Wisconsin, US</td>
+      <td>Southampton</td>
+      <td>Milwaukee, Wisconsin, US</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Crosby, Miss Harriette Rebecca</td>
+      <td>39</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Cumings, Mr. John Bradley</td>
+      <td>39</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cumings, Mrs. Florence Briggs (née Thayer)</td>
+      <td>35</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Daly, Mr. Peter Dennis</td>
+      <td>51</td>
+      <td>Lima, Peru</td>
+      <td>Southampton</td>
+      <td>Lima, Peru</td>
+      <td>A</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Daniel, Mr. Robert Williams</td>
+      <td>27</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>?</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Davidson, Mr. Thornton</td>
+      <td>31</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Davidson, Mrs. Orian (née Hays)</td>
+      <td>27</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Dick, Mr. Albert Adrian</td>
+      <td>31</td>
+      <td>Calgary, Alberta, Canada</td>
+      <td>Calgary, Alberta, Canada</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Dick, Mrs. Vera (née Gillespie)</td>
+      <td>17</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Dodge, Dr. Washington</td>
+      <td>52</td>
+      <td>San Francisco, California, US</td>
+      <td>San Francisco, California, US</td>
+      <td>13</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Dodge, Mrs. Ruth (née Vidaver)</td>
+      <td>34</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Dodge, Master Washington, Jr.</td>
+      <td>4</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Douglas, Mr. Walter Donald</td>
+      <td>50</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td>Cherbourg</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td></td>
+      <td>62MB</td>
+    </tr>
+    <tr>
+      <td>Douglas, Mrs. Mahala (née Dutton)</td>
+      <td>48</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td>Cherbourg</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Berthe Leroy</td>
+      <td>27</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Douglas, Mrs. Mary Hélène (née Baxter)</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>6</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Duff Gordon, Sir Cosmo Edmund</td>
+      <td>49</td>
+      <td>London, England, UK</td>
+      <td>New York City</td>
+      <td>1</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Duff Gordon, Lucy Christiana, Lady (née Sutherland)</td>
+      <td>48</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and secretary, Miss Laura Mabel Francatelli</td>
+      <td>31</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Dulles, Mr. William Crothers</td>
+      <td>39</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Cherbourg</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td></td>
+      <td>133MB</td>
+    </tr>
+    <tr>
+      <td>Eustis, Miss Elizabeth Mussey</td>
+      <td>54</td>
+      <td>Brookline, Massachusetts, US</td>
+      <td>Cherbourg</td>
+      <td>Brookline, Massachusetts, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evans, Miss Edith Corse</td>
+      <td>36</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Flegenheim, Mrs. Antoinette "Tony" (née Wendt)</td>
+      <td>48</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Flynn, Mr. John Irwin</td>
+      <td>36</td>
+      <td>Brooklyn, New York, US</td>
+      <td>Southampton</td>
+      <td>Brooklyn, New York, US</td>
+      <td>5</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Foreman, Mr. Benjamin Laventall</td>
+      <td>30</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fortune, Mr. Mark</td>
+      <td>64</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Fortune, Mrs. Mary (née McDougald)</td>
+      <td>60</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>Southampton</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fortune, Miss Ethel Flora</td>
+      <td>28</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Fortune, Miss Alice Elizabeth</td>
+      <td>24</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Fortune, Miss Mabel Helen</td>
+      <td>23</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Fortune, Mr. Charles Alexander</td>
+      <td>19</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>Southampton</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Franklin, Mr. Thomas Parnham</td>
+      <td>37</td>
+      <td>London, England, UK</td>
+      <td>New York, New York, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Frauenthal, Dr. Henry William</td>
+      <td>49</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York, New York, US</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frauenthal, Mrs. Clara (née Heinsheimer)</td>
+      <td>42</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Frauenthal, Mr. Isaac Gerald</td>
+      <td>43</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Frölicher, Mr. Maximilian Josef</td>
+      <td>60</td>
+      <td>Zürich, Switzerland</td>
+      <td>Cherbourg</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Frölicher, Mrs. Margaretha Emerentia (née Stehli)</td>
+      <td>48</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Frölicher-Stehli, Miss Hedwig Margaritha</td>
+      <td>22</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Futrelle, Mr. Jacques Heath</td>
+      <td>37</td>
+      <td>Scituate, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Scituate, Massachusetts, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Futrelle, Mrs. Lily May (née Peel)</td>
+      <td>35</td>
+      <td>Scituate, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Scituate, Massachusetts, US</td>
+      <td>D</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gee, Mr. Arthur H.</td>
+      <td>47</td>
+      <td>St Annes-on-Sea, Lancashire, England, UK</td>
+      <td>Southampton</td>
+      <td>Mexico City, Mexico</td>
+      <td></td>
+      <td>275MB</td>
+    </tr>
+    <tr>
+      <td>Gibson, Mrs. Pauline Caroline (née Boeson)</td>
+      <td>44</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gibson, Miss Dorothy Winifred</td>
+      <td>22</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Goldenberg, Mr. Samuel L.</td>
+      <td>47</td>
+      <td>Paris, France</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Goldenberg, Mrs. Nella (née Wiggins)</td>
+      <td>40</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Goldschmidt, Mr. George B.</td>
+      <td>71</td>
+      <td>New York, New York, US</td>
+      <td>Cherbourg</td>
+      <td>New York, New York, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gracie IV, Colonel Archibald</td>
+      <td>53</td>
+      <td>Washington, D.C., US</td>
+      <td>Southampton</td>
+      <td>Washington, D.C., US</td>
+      <td>B</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Graham, Mr. George Edward</td>
+      <td>38</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>Southampton</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td></td>
+      <td>147MB</td>
+    </tr>
+    <tr>
+      <td>Graham, Mrs. Edith Ware (née Junkins)</td>
+      <td>59</td>
+      <td>Greenwich, Connecticut, US</td>
+      <td>Southampton</td>
+      <td>Greenwich, Connecticut, US</td>
+      <td>3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Graham, Miss Margaret Edith</td>
+      <td>19</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and governess, Miss Elizabeth Weed Shutes</td>
+      <td>40</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Greenfield, Mrs. Blanche (née Strouse)</td>
+      <td>45</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Greenfield, Mr. William Bertram</td>
+      <td>23</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Guggenheim, Mr. Benjamin</td>
+      <td>46</td>
+      <td>Paris, France</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. Victor Giglio</td>
+      <td>24</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and chauffeur, Mr. René Pernot[79]</td>
+      <td>39</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Harder, Mr. George Achilles</td>
+      <td>25</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Harder, Mrs. Dorothy (née Annan)</td>
+      <td>21</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Harper, Mr. Henry Sleeper</td>
+      <td>48</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and dragoman, Mr. Hammad Hassab</td>
+      <td>27</td>
+      <td>Cairo, Egypt</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Harper, Mrs. Myra Raymond (née Haxtun)</td>
+      <td>49</td>
+      <td>New York City</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Harris, Mr. Henry Birkhardt</td>
+      <td>45</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Harris, Mrs. Irene "Renee" (née Wallach)</td>
+      <td>35</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>D</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hawksford, Mr. Walter James</td>
+      <td>45</td>
+      <td>Kingston, Surrey, England, UK</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hays, Mr. Charles Melville</td>
+      <td>55</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td>307M</td>
+    </tr>
+    <tr>
+      <td>and clerk, Mr. Vivian Ponsonby Payne</td>
+      <td>22</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hays, Mrs. Clara Jennings (née Grigg)</td>
+      <td>52</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Mary Anne Perreault</td>
+      <td>33</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hays, Miss Margaret Bechstein</td>
+      <td>24</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Head, Mr. Christopher</td>
+      <td>42</td>
+      <td>Chelsea, London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hilliard, Mr. Herbert Henry</td>
+      <td>44</td>
+      <td>Brighton, Massachusetts, US</td>
+      <td>Brighton, Massachusetts, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hipkins, Mr. William Edward</td>
+      <td>55</td>
+      <td>Birmingham, West Midlands, England, UK</td>
+      <td>New York City</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hippach, Mrs. Ida Sophia (née Fischer)</td>
+      <td>44</td>
+      <td>Chicago, Illinois, US</td>
+      <td>Cherbourg</td>
+      <td>Chicago, Illinois, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hippach, Miss Jean Gertrude</td>
+      <td>17</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hogeboom, Mrs. Anna Louisa (née Andrews)</td>
+      <td>51</td>
+      <td>Hudson, New York, US</td>
+      <td>Hudson, New York, US</td>
+      <td>10</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Holverson, Mr. Alexander Oskar</td>
+      <td>42</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>38MB</td>
+    </tr>
+    <tr>
+      <td>Holverson, Mrs. Mary Aline (née Towner)</td>
+      <td>35</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Homer, Mr. Harry (alias E. Haven)</td>
+      <td>40</td>
+      <td>Indianapolis, Indiana, US</td>
+      <td>Indianapolis, Indiana, US</td>
+      <td>15</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hoyt, Mr. Frederick Maxfield</td>
+      <td>35</td>
+      <td>New York City</td>
+      <td>Stamford, Connecticut, US</td>
+      <td>D</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hoyt, Mrs. Jane Anne (née Forby)</td>
+      <td>31</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Hoyt, Mr. William Fisher</td>
+      <td>42</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>14</td>
+      <td>[87][88]</td>
+    </tr>
+    <tr>
+      <td>Isham, Miss Ann Elizabeth</td>
+      <td>50</td>
+      <td>Chicago, Illinois, US</td>
+      <td>Chicago, Illinois, US</td>
+      <td></td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ismay, Mr. Joseph Bruce</td>
+      <td>49</td>
+      <td>Liverpool, Merseyside, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. John Richard Fry</td>
+      <td>39</td>
+      <td>Liverpool, Merseyside, England, UK</td>
+      <td>Southampton</td>
+      <td>New York, New York, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and secretary, Mr. William Henry Harrison</td>
+      <td>45</td>
+      <td>Wallasey, Merseyside, England, UK</td>
+      <td>110MB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Jones, Mr. Charles Cresson</td>
+      <td>46</td>
+      <td>Bennington, Vermont, US</td>
+      <td>Bennington, Vermont, US</td>
+      <td>80MB</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Julian, Mr. Henry Forbes</td>
+      <td>50</td>
+      <td>Torquay, Devon, England, UK</td>
+      <td>San Francisco, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Kent, Mr. Edward Austin</td>
+      <td>58</td>
+      <td>Buffalo, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Buffalo, New York, US</td>
+      <td>258MB</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Kenyon, Mr. Frederick R.</td>
+      <td>41</td>
+      <td>Pittsburgh, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Pittsburgh, Pennsylvania, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Kenyon, Mrs. Marion (née Stauffer)[83][89]</td>
+      <td>31</td>
+      <td>Pittsburgh, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Pittsburgh, Pennsylvania, US</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kimball, Mr. Edwin Nelson Jr.</td>
+      <td>42</td>
+      <td>Boston, Massachusetts, US</td>
+      <td>Boston, Massachusetts, US</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Kimball, Mrs. Gertrude (née Parsons)</td>
+      <td>45</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Klaber, Mr. Herman</td>
+      <td>45</td>
+      <td>Portland, Oregon, US</td>
+      <td>Southampton</td>
+      <td>Portland, Oregon, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lambert-Williams, Mr. Fletcher Fellows</td>
+      <td>43</td>
+      <td>London, England, UK</td>
+      <td>Newark, New Jersey, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Leader, Dr. Alice (née Farnham)</td>
+      <td>49</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Leslie, Lucy Noël Martha, Countess of Rothes (née Dyer-Edwardes)</td>
+      <td>34</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Roberta Elizabeth Mary "Cissy" Maioni[90]</td>
+      <td>20</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Lewy, Mr. Ervin G.</td>
+      <td>31</td>
+      <td>Chicago, Illinois, US</td>
+      <td>Cherbourg</td>
+      <td>Chicago, Illinois, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lindeberg-Lind, Mr. Erik Gustav (alias Edward Lingrey)</td>
+      <td>42</td>
+      <td>Jordanstorp, Södermanland, Sweden</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Lindström, Mrs. Sigrid (née Posse)</td>
+      <td>55</td>
+      <td>Stockholm, Sweden</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lines, Mrs. Elizabeth Lindsey (née James)</td>
+      <td>50</td>
+      <td>Paris, France</td>
+      <td>Hanover, New Hampshire, US</td>
+      <td>9</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Lines, Miss Mary Conover</td>
+      <td>16</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Long, Mr. Milton Clyde</td>
+      <td>29</td>
+      <td>Springfield, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Springfield, Massachusetts, US</td>
+      <td></td>
+      <td>126MB</td>
+    </tr>
+    <tr>
+      <td>Longley, Miss Gretchen Fiske</td>
+      <td>21</td>
+      <td>Hudson, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Hudson, New York, US</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Loring, Mr. Joseph Holland</td>
+      <td>30</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Madill, Miss Georgette Alexandra</td>
+      <td>16</td>
+      <td>St Louis, Missouri, US</td>
+      <td>Southampton</td>
+      <td>St Louis, Missouri, US</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Maguire, Mr. John Edward</td>
+      <td>30</td>
+      <td>Brockton, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Brockton, Massachusetts, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Maréchal, Mr. Pierre, Sr.</td>
+      <td>28</td>
+      <td>Paris, France</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Marvin, Mr. Daniel Warner</td>
+      <td>18</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Marvin, Mrs. Mary Graham Carmichael (née Farquarson)[83][91]</td>
+      <td>18</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mayné, Miss Bertha Antonine</td>
+      <td>24</td>
+      <td>Brussels, Belgium</td>
+      <td>Cherbourg</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>6</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>McCaffry, Mr. Thomas Francis</td>
+      <td>46</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td>Southampton</td>
+      <td>Vancouver, British Columbia, Canada</td>
+      <td></td>
+      <td>292MB</td>
+    </tr>
+    <tr>
+      <td>McCarthy, Mr. Timothy J.</td>
+      <td>54</td>
+      <td>Dorchester, Massachusetts, US</td>
+      <td>Dorchester, Massachusetts, US</td>
+      <td>175MB</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>McGough, Mr. James Robert</td>
+      <td>35</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Meyer, Mr. Edgar Joseph</td>
+      <td>28</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Meyer, Mrs. Leila (née Saks)</td>
+      <td>25</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Millet, Mr. Francis Davis</td>
+      <td>63</td>
+      <td>East Bridgewater, Massachusetts, US</td>
+      <td>Cherbourg</td>
+      <td>East Bridgewater, Massachusetts, US</td>
+      <td></td>
+      <td>249MB</td>
+    </tr>
+    <tr>
+      <td>Minahan, Dr. William Edward</td>
+      <td>44</td>
+      <td>Fond du Lac, Wisconsin, US</td>
+      <td>Southampton</td>
+      <td>Fond du Lac, Wisconsin, US</td>
+      <td>230MB</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Minahan, Mrs. Lillian E. (née Thorpe)</td>
+      <td>37</td>
+      <td>Fond du Lac, Wisconsin, US</td>
+      <td>Southampton</td>
+      <td>Fond du Lac, Wisconsin, US</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minahan, Miss Daisy E.</td>
+      <td>33</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Mock, Mr. Philipp Edmund</td>
+      <td>30</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>11</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Molson, Mr. Harry Markland</td>
+      <td>55</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td>Southampton</td>
+      <td>Montreal, Quebec, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Moore, Mr. Clarence</td>
+      <td>47</td>
+      <td>Washington, D.C., US</td>
+      <td>Washington, D.C., US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. Charles Henry Harrington</td>
+      <td>37</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Natsch, Mr. Charles</td>
+      <td>36</td>
+      <td>Brooklyn, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Brooklyn, New York, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Newell, Mr. Arthur Webster</td>
+      <td>58</td>
+      <td>Lexington, Massachusetts, US</td>
+      <td>Lexington, Massachusetts, US</td>
+      <td>122MB</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Newell, Miss Madeleine</td>
+      <td>31</td>
+      <td>Lexington, Massachusetts, US</td>
+      <td>Cherbourg</td>
+      <td>Lexington, Massachusetts, US</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Newell, Miss Marjorie Anne</td>
+      <td>23</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Newsom, Miss Helen Monypeny</td>
+      <td>19</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>5</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Nicholson, Mr. Arthur Ernest</td>
+      <td>64</td>
+      <td>Shanklin, Isle of Wight, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>263MB</td>
+    </tr>
+    <tr>
+      <td>Nourney, Mr. Alfred[92][93]</td>
+      <td>20</td>
+      <td>Cologne, German Empire[note 2]</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Omont, Mr. Alfred Fernand</td>
+      <td>29</td>
+      <td>Le Havre, France</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ostby, Mr. Engelhart Cornelius</td>
+      <td>64</td>
+      <td>Providence, Rhode Island, US</td>
+      <td>Southampton</td>
+      <td>Providence, Rhode Island, US</td>
+      <td></td>
+      <td>234MB</td>
+    </tr>
+    <tr>
+      <td>Ostby, Miss Helene Ragnhild</td>
+      <td>22</td>
+      <td>Providence, Rhode Island, US</td>
+      <td>Southampton</td>
+      <td>Providence, Rhode Island, US</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ovies y Rodriguez, Mr. Servando José Florentino</td>
+      <td>36</td>
+      <td>Havana, Cuba</td>
+      <td>Cherbourg</td>
+      <td>Havana, Cuba</td>
+      <td></td>
+      <td>189MB</td>
+    </tr>
+    <tr>
+      <td>Parr, Mr. William Henry Marsh[81]</td>
+      <td>29</td>
+      <td>Belfast, Ireland</td>
+      <td>Belfast</td>
+      <td>New York City</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Partner, Mr. Austin</td>
+      <td>40</td>
+      <td>Tolworth, London, England, UK</td>
+      <td>Southampton</td>
+      <td>Toronto, Ontario, Canada</td>
+      <td>166MB</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Pears, Mr. Bill Clinton</td>
+      <td>29</td>
+      <td>Isleworth, London, England, UK</td>
+      <td>New York City</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Pears, Mrs. Edith (née Wearne)</td>
+      <td>22</td>
+      <td>Isleworth, London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Peñasco y Castellana, Mr. Victor</td>
+      <td>24</td>
+      <td>Madrid, Spain</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Peñasco y Castellana, Mrs. Maria Josefa (née Perez de Soto y Vallejo)</td>
+      <td>22</td>
+      <td>Madrid, Spain</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Doña Fermina Oliva y Ocana</td>
+      <td>39</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Peuchen, Major Arthur Godfrey</td>
+      <td>52</td>
+      <td>Toronto, Ontario, Canada</td>
+      <td>Southampton</td>
+      <td>Toronto, Ontario, Canada</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Porter, Mr. Walter Chamberlain</td>
+      <td>46</td>
+      <td>Worcester, Massachusetts, US</td>
+      <td>Southampton</td>
+      <td>Worcester, Massachusetts, US</td>
+      <td></td>
+      <td>207MB</td>
+    </tr>
+    <tr>
+      <td>Potter, Mrs. Lily Alexenia (née Wilson)</td>
+      <td>56</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Cherbourg</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Reuchlin,The HonourableMr. Johan George</td>
+      <td>38</td>
+      <td>Rotterdam, The Netherlands</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rheims, Mr. George Alexander Lucien</td>
+      <td>36</td>
+      <td>Paris, France</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Robert, Mrs. Elisabeth Walton (née McMillan)</td>
+      <td>43</td>
+      <td>St. Louis, Missouri, US</td>
+      <td>St. Louis, Missouri, US</td>
+      <td>2</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Emilie Kreuchen</td>
+      <td>29</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Roebling, Mr. Washington Augustus II</td>
+      <td>31</td>
+      <td>Trenton, New Jersey, US</td>
+      <td>Southampton</td>
+      <td>Trenton, New Jersey, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Romaine, Mr. Charles Hallance (alias C. Rolmane)</td>
+      <td>45</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>9</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rood, Mr. Hugh Roscoe</td>
+      <td>38</td>
+      <td>Seattle, Washington, US</td>
+      <td>Southampton</td>
+      <td>Seattle, Washington, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rosenbaum, Miss Edith Louise</td>
+      <td>34</td>
+      <td>Paris, France</td>
+      <td>Cherbourg</td>
+      <td>Cincinnati, Ohio, US</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rosenshine, Mr. George (alias George Thorne)</td>
+      <td>46</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td>16MB</td>
+    </tr>
+    <tr>
+      <td>Ross, Mr. John Hugo</td>
+      <td>36</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td>Southampton</td>
+      <td>Winnipeg, Manitoba, Canada</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Rothschild, Mr. Martin</td>
+      <td>46</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Rothschild, Mrs. Elizabeth Jane Anne (née Barrett)</td>
+      <td>54</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rowe, Mr. Alfred G.</td>
+      <td>59</td>
+      <td>Liverpool, Merseyside, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>109MB</td>
+    </tr>
+    <tr>
+      <td>Ryerson, Mr. Arthur Larned</td>
+      <td>61</td>
+      <td>Cooperstown, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Cooperstown, New York, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ryerson, Mrs. Emily Maria (née Borie)</td>
+      <td>48</td>
+      <td>Cooperstown, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Cooperstown, New York, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Victorine Chaudanson</td>
+      <td>36</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ryerson, Miss Susan Parker "Suzette"</td>
+      <td>21</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ryerson, Miss Emily Borie</td>
+      <td>18</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Ryerson, Master John Borie "Jack"</td>
+      <td>13</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and governess, Miss Grace Scott Bowen</td>
+      <td>45</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Saalfeld, Mr. Adolphe</td>
+      <td>47</td>
+      <td>Manchester, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>3</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Salomon, Mr. Abraham Lincoln</td>
+      <td>43</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>1</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Schabert, Mrs. Emma Mary Blake (née Mock)</td>
+      <td>35</td>
+      <td>Hamburg, German Empire</td>
+      <td>Cherbourg</td>
+      <td>11</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Seward, Mr. Frederic Kimber</td>
+      <td>34</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>7</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Silverthorne, Mr. Spencer Victor</td>
+      <td>35</td>
+      <td>St Louis, Missouri, US</td>
+      <td>Southampton</td>
+      <td>St Louis, Missouri, US</td>
+      <td>5</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Silvey, Mr. William Baird</td>
+      <td>50</td>
+      <td>Duluth, Minnesota, US</td>
+      <td>Cherbourg</td>
+      <td>Duluth, Minnesota, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Silvey, Mrs. Alice (née Munger)</td>
+      <td>39</td>
+      <td>Duluth, Minnesota, US</td>
+      <td>Cherbourg</td>
+      <td>Duluth, Minnesota, US</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Simonius-Blumer, Colonel Alfons</td>
+      <td>56</td>
+      <td>Basel, Switzerland</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>3</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Sloper, Mr. William Thompson</td>
+      <td>28</td>
+      <td>New Britain, Connecticut, US</td>
+      <td>New Britain, Connecticut, US</td>
+      <td>7</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Smart, Mr. John Montgomery</td>
+      <td>56</td>
+      <td>Kildale, North Yorkshire, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith, Mr. James Clinch</td>
+      <td>56</td>
+      <td>Paris, France</td>
+      <td>Cherbourg</td>
+      <td>Long Island, New York, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Smith, Mr. Lucien Philip</td>
+      <td>24</td>
+      <td>Huntington, West Virginia, US</td>
+      <td>Huntington, West Virginia, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Smith, Mrs. Mary Eloise (née Hughes)[83][94]</td>
+      <td>18</td>
+      <td>Huntington, West Virginia, US</td>
+      <td>Cherbourg</td>
+      <td>Huntington, West Virginia, US</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith, Mr. Richard William</td>
+      <td>57</td>
+      <td>Streatham, London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Snyder, Mr. John Pillsbury</td>
+      <td>24</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td>Southampton</td>
+      <td>Minneapolis, Minnesota, US</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Snyder, Mrs. Nellie (née Stevenson)</td>
+      <td>23</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Spedden, Mr. Frederic Oakley</td>
+      <td>45</td>
+      <td>Tuxedo Park, New York, US</td>
+      <td>Cherbourg</td>
+      <td>Tuxedo Park, New York, US</td>
+      <td>3</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Spedden, Mrs. Margaretta Corning (née Stone)</td>
+      <td>39</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Helen Alice Wilson</td>
+      <td>31</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Spedden, Master Robert Douglas</td>
+      <td>6</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and nurse, Miss Elizabeth Margaret Burns</td>
+      <td>41</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Spencer, Mr. William Augustus</td>
+      <td>57</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Spencer, Mrs. Marie Eugénie (née Demougeot)</td>
+      <td>45</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Eugenie Elise Lurette</td>
+      <td>59</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Stähelin-Maeglin, Dr. Max</td>
+      <td>32</td>
+      <td>Basel, Switzerland</td>
+      <td>Southampton</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Stead, Mr. William Thomas</td>
+      <td>62</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stengel, Mr. Charles Emil Henry</td>
+      <td>54</td>
+      <td>Newark, New Jersey, US</td>
+      <td>Cherbourg</td>
+      <td>Newark, New Jersey, US</td>
+      <td>1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stengel, Mrs. Annie May (née Morris)</td>
+      <td>44</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Stephenson, Mrs. Martha (née Eustis)</td>
+      <td>52</td>
+      <td>Paris, France</td>
+      <td>Haverford, Pennsylvania, US</td>
+      <td>4</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Stewart, Mr. Albert A.</td>
+      <td>54</td>
+      <td>Cincinnati, Ohio, US</td>
+      <td>Cherbourg</td>
+      <td>Gallipolis, Ohio, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stone, Mrs. Martha Evelyn (née Stevens)</td>
+      <td>62</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Amelie "Amelia" Icard</td>
+      <td>38</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Straus, Mr. Isidor</td>
+      <td>67</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td>96MB</td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. John Farthing</td>
+      <td>57</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Straus, Mrs. Rosalie Ida (née Blun)</td>
+      <td>63</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Ellen Bird</td>
+      <td>31</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sutton, Mr. Frederick</td>
+      <td>61</td>
+      <td>Haddonfield, New Jersey, US</td>
+      <td>Southampton</td>
+      <td>Haddonfield, New Jersey, US</td>
+      <td></td>
+      <td>46MB</td>
+    </tr>
+    <tr>
+      <td>Swift, Mrs. Margaret Welles (née Barron)</td>
+      <td>46</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Taussig, Mr. Emil</td>
+      <td>52</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Taussig, Mrs. Tillie (née Mandelbaum)</td>
+      <td>39</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Taussig, Miss Ruth</td>
+      <td>18</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Taylor, Mr. Elmer Zebley</td>
+      <td>48</td>
+      <td>London, England, UK</td>
+      <td>East Orange, New Jersey, US</td>
+      <td>5</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Taylor, Mrs. Juliet Cummins (née Wright)</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Thayer, Mr. John Borland II</td>
+      <td>49</td>
+      <td>Haverford, Pennsylvania, US</td>
+      <td>Cherbourg</td>
+      <td>Haverford, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thayer, Mrs. Marian Longsteth(née Morris)</td>
+      <td>39</td>
+      <td>Haverford, Pennsylvania, US</td>
+      <td>Cherbourg</td>
+      <td>Haverford, Pennsylvania, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Margaret Fleming</td>
+      <td>42</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Thayer, Mr. John Borland "Jack" III</td>
+      <td>17</td>
+      <td>B</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Thorne, Mrs. Gertrude Maybelle (née McMinn)</td>
+      <td>37</td>
+      <td>New York City</td>
+      <td>New York City</td>
+      <td>D</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Tucker, Mr. Gilbert Milligan Jr.</td>
+      <td>31</td>
+      <td>Albany, New York, US</td>
+      <td>Albany, New York, US</td>
+      <td>7</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Uruchurtu, Don Manuel E.</td>
+      <td>39</td>
+      <td>Mexico City, Mexico</td>
+      <td>Cherbourg</td>
+      <td>Mexico City, Mexico</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Van der Hoef, Mr. Wyckoff</td>
+      <td>61</td>
+      <td>Brooklyn, New York, US</td>
+      <td>Belfast</td>
+      <td>Brooklyn, New York, US</td>
+      <td>245MB</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Walker, Mr. William Anderson</td>
+      <td>48</td>
+      <td>East Orange, New Jersey, US</td>
+      <td>Southampton</td>
+      <td>East Orange, New Jersey, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Warren, Mr. Frank Manley</td>
+      <td>63</td>
+      <td>Portland, Oregon, US</td>
+      <td>Cherbourg</td>
+      <td>Portland, Oregon, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Warren, Mrs. Anna Sophia (née Atkinson)</td>
+      <td>60</td>
+      <td>Portland, Oregon, US</td>
+      <td>Cherbourg</td>
+      <td>Portland, Oregon, US</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Weir, Colonel John</td>
+      <td>59</td>
+      <td>New York City</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>White, Mr. Percival Wayland</td>
+      <td>54</td>
+      <td>Brunswick, Maine, US</td>
+      <td>Brunswick, Maine, US</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>White, Mr. Richard Frasar</td>
+      <td>21</td>
+      <td>169MB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>White, Mrs. Ella (née Holmes)</td>
+      <td>55</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Amelia Mayo "Nellie" Bessette</td>
+      <td>39</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>and manservant, Mr. Sante Righini</td>
+      <td>22</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td></td>
+      <td>232MB</td>
+    </tr>
+    <tr>
+      <td>Wick, Colonel George Dennick</td>
+      <td>58</td>
+      <td>Youngstown, Ohio, US</td>
+      <td>Southampton</td>
+      <td>Youngstown, Ohio, US</td>
+      <td></td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Wick, Mrs. Mary (née Hitchcock)</td>
+      <td>45</td>
+      <td>Youngstown, Ohio, US</td>
+      <td>Southampton</td>
+      <td>Youngstown, Ohio, US</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wick, Miss Mary Natalie</td>
+      <td>31</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Widener, Mr. George Dunton</td>
+      <td>50</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and valet, Mr. Edwin Herbert Keeping</td>
+      <td>33</td>
+      <td>45MB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Widener, Mrs. Eleanor (née Elkins)</td>
+      <td>50</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>and maid, Miss Amalie Henriette "Emily" Gieger</td>
+      <td>35</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Widener, Mr. Harry Elkins</td>
+      <td>27</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td>Southampton</td>
+      <td>Philadelphia, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Willard, Miss Constance</td>
+      <td>21</td>
+      <td>Duluth, Minnesota, US</td>
+      <td>Southampton</td>
+      <td>Duluth, Minnesota, US</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Williams, Mr. Charles Duane</td>
+      <td>51</td>
+      <td>Geneva, Switzerland</td>
+      <td>Cherbourg</td>
+      <td>Radnor, Pennsylvania, US</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Williams, Mr. Richard Norris II</td>
+      <td>21</td>
+      <td>Geneva, Switzerland</td>
+      <td>Cherbourg</td>
+      <td>Radnor, Pennsylvania, US</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Woolner, Mr. Hugh</td>
+      <td>45</td>
+      <td>London, England, UK</td>
+      <td>Southampton</td>
+      <td>New York City</td>
+      <td>D</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Wright, Mr. George</td>
+      <td>62</td>
+      <td>Halifax, Nova Scotia, Canada</td>
+      <td>Southampton</td>
+      <td>Halifax, Nova Scotia, Canada</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Young, Miss Marie Grice</td>
+      <td>36</td>
+      <td>New York City</td>
+      <td>Cherbourg</td>
+      <td>New York City</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
